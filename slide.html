@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="VV.css">
+        <script src=help.js></script>
+    </head>
+    <body>
+        <div class="VV-3">
+            <!-- data-imgs 是图片的总数 -->
+            <!-- data-active 是当前显示的图片的下标 -->
+            <div class="VV-slide" data-imgs="5" data-active="0">
+                <img id=id-VVimage-0 class="VV-slide-image VV-active" src="1.jpg" alt="">
+                <img id=id-VVimage-1 class=VV-slide-image src="2.jpg" alt="">
+                <img id=id-VVimage-2 class=VV-slide-image src="3.jpg" alt="">
+                <img id=id-VVimage-3 class=VV-slide-image src="4.jpg" alt="">
+                <img id=id-VVimage-4 class=VV-slide-image src="5.jpg" alt="">
+                <button class="VV-slide-button VV-left VV-vertical-center"
+                        data-offset="-1"> &lt; </button>
+                <button class="VV-slide-button VV-right VV-vertical-center"
+                        data-offset="1"> &gt; </button>
+                <div class="VV-slide-indicators">
+                    <div id='id-indi-0'class="VV-slide-indi VV-white"
+                        data-index='0'></div>
+                    <div id='id-indi-1' class="VV-slide-indi"
+                        data-index='1'></div>
+                    <div id='id-indi-2' class="VV-slide-indi"
+                        data-index='2'></div>
+                    <div id='id-indi-3' class="VV-slide-indi"
+                        data-index='3'></div>
+                    <div id='id-indi-4' class="VV-slide-indi"
+                        data-index='4'></div>
+                </div>
+            </div>
+        </div>
+        <script src=VV.js></script>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+.VV-slide {
+    position: relative;
+    width: 790px;
+}
+.VV-slide-image {
+    display: none;
+}
+.VV-active {
+    display: inline-block;
+}
+.VV-slide-button {
+    position: absolute;
+    height: 50px;
+    width: 30px;
+    /**/
+    background: black;
+    color: white;
+    opacity: 0.3;
+    /**/
+    border: none;
+    /**/
+    cursor: pointer;
+}
+.VV-slide-button:focus {
+    outline: none;
+}
+.VV-slide-button.VV-left {
+    left: 0;
+}
+.VV-slide-button.VV-right {
+    right: 0;
+}
+.VV-vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.VV-slide-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.VV-slide-indi {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+}
+.VV-white {
+    background: white;
+}
